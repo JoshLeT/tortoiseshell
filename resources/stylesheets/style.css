@@ -37,7 +37,13 @@ h2 {
   margin-top: 10rem;
   text-align: center;
   background-color: white;
-  padding: 1.5rem 5rem;
+  padding: 1.5rem 5rem 1.5rem 5rem;
+}
+
+.lowerbanner {
+  display: flex;
+  justify-content: flex-end;
+
 }
 
 /* Header Section */
@@ -48,29 +54,76 @@ h2 {
   padding-top: 1rem;
   display: flex;
   align-items: center;
+  align-content: center;
 }
 
 .header img {
   height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
 }
 
 .header span {
   color: white;
 }
 
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: flex-end;
+}
+
+nav span {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 2rem;
+}
+
 /* Products Section */
 
-.products {
+.productssection {
+  height: 8rem;
   margin-top: 3rem;
   margin-bottom: 3rem;
   display: flex;
   justify-content: space-around;
 }
 
+.product {
+  
+}
+
+.product p {
+  text-align: center;
+}
 
 /* Info Section */
 
+.info {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
 
+.infobox {
+  margin-right: 5%;
+  width: 35%;
+}
+
+.infobox h2 {
+  background-color: cadetblue;
+  color: white;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  width: 10rem;
+  margin-bottom: 1rem;
+}
+
+.infobox p {
+  text-align: left;
+}
 
 /* Footer Section */
 
